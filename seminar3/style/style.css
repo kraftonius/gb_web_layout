@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #000000;
+    color: white;
+}
+
+.highway {
+
+}
+
+.menu {
+    padding: 39px;
+    border: 10px;
+}
+
+.menu_link {
+    padding: 16px 32px;
+}
+
+.top_content {
+    margin: 160px 0 197px 0
+}
+
+.img {
+    margin: 0 0 0 128px;
+}
+
+.button {
+    padding: 15px 30px;
+}
+
+
+.h1 {
+    margin: 8px 0;
+}
+
+.h3 {
+    margin: 0 0 10px 0;
+}
+
+.p {
+    margin: 0 0 50px 0;
+}
+
+.buttons {
+    padding: 16px 0;
+}
+
+
+.top-logos {
+    padding: 0 0 99px 0;
+}
+
+.logo_img {
+
+}
