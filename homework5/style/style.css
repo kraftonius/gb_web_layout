@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy'),
+         url('../fonts/Gilroy-Bold.ttf') format('truetype'),
+         url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-Bold.woff') format('woff'); 
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy'),
+         url('../fonts/Gilroy-Medium.ttf') format('truetype'),
+         url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-Medium.woff') format('woff'); 
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: local('Gilroy'),
+         url('../fonts/Gilroy-SemiBold.ttf') format('truetype'),
+         url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gilroy-SemiBold.woff') format('woff'); 
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: white ;
+    color: #000000;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header {
+
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_logo {
+    
+}
+
+.menu {
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.menu_link_home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu_link_else {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
+.top-content {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+
+}
+
+.top__content {
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle {
+    margin-top: 17px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons {
+    margin-top: 37px;
+    padding: 16px 0; 
+}
+
+.button_text {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.filled-button {
+    margin-right: 72px;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.video-link {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.top__image {
+    margin-left: 41px;
+    /* width: 545px;
+    height: 375px; */
+    flex-shrink: 0;
+}
+
+.top-logos {
+    padding-bottom: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.partner-logo {
+
+}
+
+.flex-item {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.articles-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.article-preview {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-icon {
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 25px;
+    flex-shrink: 0;
+
+}
+
+.article-title {
+    align-self: flex-start;
+    margin-top: 25px;
+    margin-left: 30px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.article-preview-text {
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 17px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+
+}
+
+.article-link {
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+    text-decoration: none;
+    
+}
+
+.choose-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose__content {
+    margin-top: 54px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.choose-title {
+    margin-top: 92px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.choose-text {
+    margin-top: 19px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.choose-article-preview {
+    margin-bottom: 100px;
+    display: flex;
+    align-self: baseline;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-article-image {
+    flex-shrink: 0;
+    align-self: center;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+
+.choose-article-title {
+    margin-top: 22px;  
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.choose-article-text {
+    margin-top: 22px;
+    flex-shrink: 0;
+    align-self: center;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+
+.choose-article-button-box {
+    margin-top: 39px;
+}
+
+.choose-article-button {
+
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+
+.choose-article-button-text {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    text-decoration: none;
+    color: #FFF;
+}
+
+.button-arrow {
+    margin-left: 6;
+}
+
