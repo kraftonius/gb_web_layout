@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
+
+.body {
+    background-color: #000000;
+    color: white;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.highway {
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu_link {
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.top_content {
+    margin: 160px 0 197px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.img {
+    margin-left: 128px;
+}
+
+.h1 {
+    margin: 8px 0;
+    width: 604px;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+}
+
+.h3 {
+    margin: 0 0 10px 0;
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    text-transform: uppercase;
+}
+
+.p {
+    margin: 0 0 50px 0;
+    width: 558px;
+    color: var(--ffffff, #FFF);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+}
+
+.buttons {
+    padding: 16px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.button {
+    padding: 15px 30px;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 5px;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+}
+
+.top-logos {
+    padding-bottom: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 71px;
+}
+
+.logo_img {
+
+}
+
+.img_play {
+    width: 27px;
+    height: 26px;
+}
+
+.button_text{
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.middle-content {
+    margin-top: 264px;
+    margin-bottom: 150px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 362px) ;
+    justify-content: center;
+}
+
+.item{
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center; */
+    gap: 30px;
+    border-radius: 10px;
+    background: #132035;
+}
+
+.item_big {
+    grid-row: span 2;
+    grid-column: span 2;
+    gap: 60px;
+}
+
+.welcome_text {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    opacity: 0.7;
+}
+
+.welcome_title {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 31.25px */
+    opacity: 0.7;
+}
+
+.welcome_img {
+    margin: auto;
+}
+
+.welcome_img_big {
+
+}
+
+/* //////////////////////////////// 
+@media screen and (max-width: XXXpx) { }
+@media screen and (min-width: XXXpx) { }
+@media screen and (min-width: XXXpx) and (max-width: YYYpx) { }
+@media screen and (max-device-width: XXXpx) { } 
+*/
+
+@media screen and (max-width: 1023px) { 
+    .center {
+        padding-left: calc(50% - 344px);
+        padding-right: calc(50% - 344px);
+    }
+
+    .h3 {
+        font-size: 16px;
+    }
+
+    .h1 {
+        font-size: 48px;
+    }
+
+    .img {
+        margin-left: 0;
+    }
+
+    .top_content {
+        gap: 128px;
+    }
+
+    .top-logos {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .middle-content {
+        gap: 32px;
+        grid-template-columns: repeat(1, 362px);
+    }
+
+    .item_big {
+        grid-row: span 1;
+        grid-column: span 1;
+        gap: 32px;
+    }
+} 
