@@ -1,0 +1,29 @@
+.center {
+
+}
+
+.custom-checkbox {
+    display: none;
+}
+
+
+.custom-checkbox:checked+.custom-checkbox-label {
+    background-image: url("../img/checkbox-active-svgrepo-com.svg");
+
+
+}
+
+.custom-checkbox+.custom-checkbox-label {
+    padding-left: 40px;
+    line-height: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/checkbox-passive-svgrepo-com.svg");
+    background-size: contain;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.custom-checkbox-label {
+}
