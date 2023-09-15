@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <title>lesson_10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Каталог
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Для мужчин</a></li>
+                            <li><a class="dropdown-item" href="#">Для женщин</a></li>
+                            <li><a class="dropdown-item" href="#">Для детей</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="display-1 container mt-5">Display 1</h1>
+    <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3 container mt-5">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Item 1</a>
+            <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+            </nav>
+            <a class="nav-link" href="#item-2">Item 2</a>
+            <a class="nav-link" href="#item-3">Item 3</a>
+            <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+            </nav>
+        </nav>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" class="container">
+        <h4 id="item-1">Item 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odio ipsa sapiente natus iste, ab nemo
+            excepturi suscipit, voluptatem saepe delectus sit tempora. Deserunt tenetur harum cum veritatis dignissimos
+            excepturi.
+            Quam aliquam similique quidem provident vero, distinctio, veniam dignissimos molestiae a reiciendis numquam
+            at laudantium id earum. Laboriosam soluta suscipit consectetur similique, molestias culpa necessitatibus hic
+            repudiandae, iusto voluptatum inventore!</p>
+        <h5 id="item-1-1">Item 1-1</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odio ipsa sapiente natus iste, ab nemo
+            excepturi suscipit, voluptatem saepe delectus sit tempora. Deserunt tenetur harum cum veritatis dignissimos
+            excepturi.
+            Quam aliquam similique quidem provident vero, distinctio, veniam dignissimos molestiae a reiciendis numquam
+            at laudantium id earum. Laboriosam soluta suscipit consectetur similique, molestias culpa necessitatibus hic
+            repudiandae, iusto voluptatum inventore!</p>
+        <h5 id="item-1-2">Item 1-2</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odio ipsa sapiente natus iste, ab nemo
+            excepturi suscipit, voluptatem saepe delectus sit tempora. Deserunt tenetur harum cum veritatis dignissimos
+            excepturi.
+            Quam aliquam similique quidem provident vero, distinctio, veniam dignissimos molestiae a reiciendis numquam
+            at laudantium id earum. Laboriosam soluta suscipit consectetur similique, molestias culpa necessitatibus hic
+            repudiandae, iusto voluptatum inventore!</p>
+        <h4 id="item-2">Item 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odio ipsa sapiente natus iste, ab nemo
+            excepturi suscipit, voluptatem saepe delectus sit tempora. Deserunt tenetur harum cum veritatis dignissimos
+            excepturi.
+            Quam aliquam similique quidem provident vero, distinctio, veniam dignissimos molestiae a reiciendis numquam
+            at laudantium id earum. Laboriosam soluta suscipit consectetur similique, molestias culpa necessitatibus hic
+            repudiandae, iusto voluptatum inventore!</p>
+        <h4 id="item-3">Item 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odio ipsa sapiente natus iste, ab nemo
+            excepturi suscipit, voluptatem saepe delectus sit tempora. Deserunt tenetur harum cum veritatis dignissimos
+            excepturi.
+            Quam aliquam similique quidem provident vero, distinctio, veniam dignissimos molestiae a reiciendis numquam
+            at laudantium id earum. Laboriosam soluta suscipit consectetur similique, molestias culpa necessitatibus hic
+            repudiandae, iusto voluptatum inventore!</p>
+        <h5 id="item-3-1">Item 3-1</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odio ipsa sapiente natus iste, ab nemo
+            excepturi suscipit, voluptatem saepe delectus sit tempora. Deserunt tenetur harum cum veritatis dignissimos
+            excepturi.
+            Quam aliquam similique quidem provident vero, distinctio, veniam dignissimos molestiae a reiciendis numquam
+            at laudantium id earum. Laboriosam soluta suscipit consectetur similique, molestias culpa necessitatibus hic
+            repudiandae, iusto voluptatum inventore!</p>
+        <h5 id="item-3-2">Item 3-2</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odio ipsa sapiente natus iste, ab nemo
+            excepturi suscipit, voluptatem saepe delectus sit tempora. Deserunt tenetur harum cum veritatis dignissimos
+            excepturi.
+            Quam aliquam similique quidem provident vero, distinctio, veniam dignissimos molestiae a reiciendis numquam
+            at laudantium id earum. Laboriosam soluta suscipit consectetur similique, molestias culpa necessitatibus hic
+            repudiandae, iusto voluptatum inventore!</p>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="d-block w-100" alt="slider1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="slider2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="slider3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider4.jpg" class="d-block w-100" alt="slider4">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</body>
+
+</html>

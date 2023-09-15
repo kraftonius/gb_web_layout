@@ -1,0 +1,29 @@
+.carousel-control-next-icon {
+    background-image: url(img/arrow-right-solid.svg);
+    filter: opacity(40%);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/arrow-left-solid.svg);
+    filter: opacity(40%);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+    .navbar .container {
+        justify-content: flex-end;
+    }
+
+    .navbar-collapse {
+        text-align: right;
+    }
+    
+    .dropdown-menu {
+        text-align: right;
+    }
+}
